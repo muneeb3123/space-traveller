@@ -33,27 +33,27 @@
 }
 
 .cancel-reserved {
-    margin-top: 20px;
-    background-color: #fff;
-    font-size: 1rem;
-    padding: 12px 30px;
-    border-radius: 5px;
-    border: 1px solid #5d6b7a;;
-    color: #5d6b7a;
+  margin-top: 20px;
+  background-color: #fff;
+  font-size: 1rem;
+  padding: 12px 30px;
+  border-radius: 5px;
+  border: 1px solid #5d6b7a;
+  color: #5d6b7a;
 }
 
 .reserve-markChanged {
-    background-color: #18A2B8;
-    color: #fff;
-    padding: 5px;
-    border-radius: 5px;
-    font-size: 12px;
-    margin-right: 10px;
-    font-weight: bold;
+  background-color: #18a2b8;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-right: 10px;
+  font-weight: bold;
 }
 
 .description {
-    line-height: 1.4rem;
+  line-height: 1.4rem;
 }
 
 .main-container {
