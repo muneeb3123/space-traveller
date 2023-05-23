@@ -1,55 +1,54 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .rocket-container {
-    margin: 50px 40px;
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+  margin: 50px 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
 }
 
 .rocket-img {
-    width: 100%;
-    max-width: 300px;
-    margin: 0 auto;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 .header {
-    font-size: 1.3rem;
-    font-weight: bold;
-    margin-bottom: 20px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
 .reserved {
-    padding: 10px 30px;
-    background-color: rgba(38, 115, 247);
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    margin-top: 20px;
-    font-size: 1rem;
+  padding: 10px 30px;
+  background-color: rgba(38, 115, 247);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  font-size: 1rem;
 }
 
 .main-container {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
 @media (min-width: 768px) {
-    .main-container {
-        flex-direction: row;
-    }
+  .main-container {
+    flex-direction: row;
+  }
 
-    .rocket-img {
-        margin-left: 0;
-        margin-right: 0;
-    }
+  .rocket-img {
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-    .rocket-container {
-        margin: 2% 5%;
-    }
-
+  .rocket-container {
+    margin: 2% 5%;
+  }
 }
