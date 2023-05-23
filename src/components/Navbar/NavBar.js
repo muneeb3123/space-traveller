@@ -11,15 +11,15 @@ const NavBar = () => (
     </div>
     <div>
       <div className="component-links">
-        <NavLink to="rockets" className="Links">
+        <NavLink to="rockets" className="links">
           Rockets
         </NavLink>
-        <NavLink to="missions" className="Links">
+        <NavLink to="missions" className="links">
           Missions
         </NavLink>
         <div className="links-separater" />
-        <NavLink to="profile" className="Links">
-          Myprofile
+        <NavLink to="profile" className="links">
+          My profile
         </NavLink>
       </div>
     </div>

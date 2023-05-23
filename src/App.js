@@ -1,5 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import {
+  BrowserRouter as Router, Route, Routes, Navigate,
+} from 'react-router-dom';
 import Profile from './components/profile/Profile';
 import Missions from './components/Missions/Missions';
 import Rockets from './components/Rocket/Rockets';
@@ -14,6 +16,7 @@ function App() {
           <Route path="/rockets" element={<Rockets />} />
           <Route path="/missions" element={<Missions />} />
           <Route path="/profile" element={<Profile />} />
+          <Route path="/" element={<Navigate to="/rockets" />} />
         </Routes>
       </Router>
     </>
