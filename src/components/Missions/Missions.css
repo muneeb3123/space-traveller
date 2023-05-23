@@ -1,0 +1,50 @@
+.missionsCont {
+  display: flex;
+  flex-direction: column;
+  padding: 2%;
+}
+
+.table {
+  border: 1px solid #C0C0C0;
+  background-color: #C0C0C0;
+}
+
+.headersCont {
+  display: table-row;
+}
+
+tr {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #DCDCDC;
+}
+
+.mission {
+  text-transform: uppercase;
+}
+
+.bodyCont {
+  padding: 5%;
+}
+
+.contentBodyTit {
+  font-size: 1rem;
+  text-align: center;
+  width: 12%;
+}
+
+.contentBodyDesc {
+  font-size: 0.83rem;
+  text-align: justify;
+  padding: 1%;
+  width: 68%;
+}
+
+.contentBody {
+  font-size: 0.9rem;
+  padding: 0 1%;
+  width: 12%;
+  text-align: center;
+}
