@@ -5,8 +5,8 @@
 }
 
 .table {
-  border: 1px solid #C0C0C0;
-  background-color: #C0C0C0;
+  border: 1px solid #c0c0c0;
+  background-color: #c0c0c0;
 }
 
 .headersCont {
@@ -18,7 +18,7 @@ tr {
 }
 
 tr:nth-child(even) {
-  background-color: #DCDCDC;
+  background-color: #dcdcdc;
 }
 
 .mission {
