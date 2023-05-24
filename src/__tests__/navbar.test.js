@@ -8,7 +8,7 @@ describe('NavBar', () => {
     render(
       <BrowserRouter>
         <NavBar />
-      </BrowserRouter>
+      </BrowserRouter>,
     );
 
     expect(screen.getByAltText('planet')).toBeInTheDocument();

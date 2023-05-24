@@ -27,7 +27,7 @@ describe('Rockets', () => {
     render(
       <Provider store={store}>
         <Rockets />
-      </Provider>
+      </Provider>,
     );
 
     expect(screen.getByText('Falcon 9')).toBeInTheDocument();
