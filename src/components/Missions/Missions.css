@@ -78,6 +78,10 @@ tr:nth-child(even) {
   font-size: 1.5vw;
 }
 
+.headers {
+  padding: 15px;
+}
+
 @media (min-width: 968px) {
   .activeMem,
   .button-leave,
