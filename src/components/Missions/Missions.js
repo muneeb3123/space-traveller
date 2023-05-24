@@ -9,8 +9,10 @@ const MissionList = () => {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(fetchMissions());
-  }, [dispatch]);
+    if (missions.length === 0) {
+      dispatch(fetchMissions());
+    }
+  }, [dispatch, missions]);
 
   if (loading === 'idle') {
     return <div>Loading...</div>;
