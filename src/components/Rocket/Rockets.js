@@ -7,8 +7,10 @@ function Rockets() {
   const dispatch = useDispatch();
   const { data, status } = useSelector((state) => state.rockets);
   useEffect(() => {
-    dispatch(fetchData());
-  }, [dispatch]);
+    if (data.length === 0) {
+      dispatch(fetchData());
+    }
+  }, [dispatch, data]);
   return (
     <div className="rocket-container">
       {status && <div>Loading...</div>}
