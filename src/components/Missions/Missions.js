@@ -42,14 +42,22 @@ const MissionList = () => {
             <tr className="bodyCont" key={mission.mission_id}>
               <td className="contentBodyTit">{mission.mission_name}</td>
               <td className="contentBodyDesc">{mission.description}</td>
-              <td className="contentBody">{mission.reserved ? 'Active Member' : 'NOT A MEMBER'}</td>
+              <td className="contentBody">
+                <div className={`member ${mission.reserved ? 'activeMem' : 'not-member'}`}>
+                  {mission.reserved ? 'Active Member' : 'NOT A MEMBER'}
+                </div>
+              </td>
               <td className="contentBody">
                 {mission.reserved ? (
-                  <button type="button" onClick={() => handleLeaveMission(mission.mission_id)}>
+                  <button type="button" className="button-leave" onClick={() => handleLeaveMission(mission.mission_id)}>
                     Leave Mission
                   </button>
                 ) : (
-                  <button type="button" onClick={() => handleJoinMission(mission.mission_id)}>
+                  <button
+                    type="button"
+                    className="joinM"
+                    onClick={() => handleJoinMission(mission.mission_id)}
+                  >
                     Join Mission
                   </button>
                 )}
