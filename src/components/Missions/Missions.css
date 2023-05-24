@@ -77,3 +77,33 @@ tr:nth-child(even) {
   padding: 1%;
   font-size: 1.5vw;
 }
+
+@media (min-width: 968px) {
+  .activeMem,
+  .button-leave,
+  .not-member,
+  .joinM {
+    font-size: 1.2vw;
+  }
+}
+
+@media (min-width: 1080px) {
+  .table {
+    margin: 0 5%;
+  }
+
+  .contentBodyTit {
+    font-size: 1.35vw;
+  }
+
+  .contentBodyDesc {
+    font-size: 1.2vw;
+  }
+
+  .activeMem,
+  .button-leave,
+  .not-member,
+  .joinM {
+    font-size: 1.05vw;
+  }
+}
