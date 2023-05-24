@@ -5,6 +5,9 @@ import { useSelector } from 'react-redux';
 const Profile = () => {
   const { data } = useSelector((state) => state.rockets);
   const reserved = data.filter((item) => item.reserved);
+  const getReservedMissions = (state) => (
+    state.missions.missions.filter((mission) => mission.reserved));
+  const reservedMissions = useSelector(getReservedMissions);
 
   return (
     <div className="profile-main">
@@ -14,7 +17,11 @@ const Profile = () => {
       </div>
       <div className="view-reserved">
         <h3 className="booking-header">My Missions</h3>
-        <div className="show-reservation">Thaicom</div>
+        {reservedMissions.map((mission) => (
+          <div key={mission.mission_id} className="show-reservation">
+            {mission.mission_name}
+          </div>
+        ))}
       </div>
     </div>
   );
