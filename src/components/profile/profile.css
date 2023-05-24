@@ -1,0 +1,41 @@
+.view-reserved > .show-reservation {
+  border: 1px solid #ccc;
+  padding: 25px;
+}
+
+.view-reserved > .show-reservation:first-of-type {
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.view-reserved > .show-reservation:not(:last-child) {
+  border-bottom: none;
+}
+
+.view-reserved > .show-reservation:last-child {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.booking-header {
+  padding-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 767px) {
+  .profile-main {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    margin: 2% 5%;
+    gap: 6%;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 2% 5%;
+    gap: 6%;
+  }
+}
