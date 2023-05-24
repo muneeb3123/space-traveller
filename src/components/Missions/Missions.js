@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import { fetchMissions } from '../../Redux/Missions/MissionsSlice';
+import { fetchMissions, joinMission, leaveMission } from '../../Redux/Missions/MissionsSlice';
 import './Missions.css';
 
 const MissionList = () => {
@@ -13,6 +13,14 @@ const MissionList = () => {
       dispatch(fetchMissions());
     }
   }, [dispatch, missions]);
+
+  const handleJoinMission = (missionId) => {
+    dispatch(joinMission({ missionId }));
+  };
+
+  const handleLeaveMission = (missionId) => {
+    dispatch(leaveMission({ missionId }));
+  };
 
   if (loading === 'idle') {
     return <div>Loading...</div>;
@@ -34,11 +42,17 @@ const MissionList = () => {
             <tr className="bodyCont" key={mission.mission_id}>
               <td className="contentBodyTit">{mission.mission_name}</td>
               <td className="contentBodyDesc">{mission.description}</td>
-              <td className="contentBody">is a member</td>
+              <td className="contentBody">{mission.reserved ? 'Active Member' : 'NOT A MEMBER'}</td>
               <td className="contentBody">
-                <button type="button" onClick={() => (mission.mission_id)}>
-                  Join
-                </button>
+                {mission.reserved ? (
+                  <button type="button" onClick={() => handleLeaveMission(mission.mission_id)}>
+                    Leave Mission
+                  </button>
+                ) : (
+                  <button type="button" onClick={() => handleJoinMission(mission.mission_id)}>
+                    Join Mission
+                  </button>
+                )}
               </td>
             </tr>
           ))}
