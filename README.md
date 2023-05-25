@@ -125,7 +125,7 @@ GitHub pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Doing the live demo deployment
+- https://melodic-alpaca-4e8a79.netlify.app
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
