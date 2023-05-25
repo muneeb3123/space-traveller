@@ -1,6 +1,4 @@
-<a name="readme-top"></a>
-
-<!-- TABLE OF CONTENTS -->
+# SPACE TRAVELER'S HUB
 
 # 📗 Table of Contents
 
@@ -8,75 +6,104 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
+  - [Deployment](#deployment)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
-<!-- PROJECT DESCRIPTION -->
 
-# 🎬 Book store <a name="about-project"></a>
 
-The Bookstore project is a web application built using React. It provides the foundation for a Bookstore website, allowing users to view and manage a collection of books. The project utilizes React Router V6 for client-side routing.
+# 🎬 Space Traveler's Hub <a name="about-project"></a>
 
-## 🛠 Built With <a name="visual studio">React</a>
+This project is a web application built using React and Redux, comussiong the SpaceX data API. This page allows the user to see the available rockects and missions. Also the user can join one or of all them. In My Profile section the user can see the reservatios they have done.
+
+## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-- Javascript
-- React
-- Linters
+
+- React 
+- Redux
+- JavaScript
+- HTML
 - CSS
-<!-- Features -->
+- Linters configuration
 
 ### Key Features <a name="key-features"></a>
-- **Reusable Components**
-- **React Router Integration**
+
+- **Page Development** : UI desing of the application.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="protfolio-project"></a>
- https://effortless-haupia-07a915.netlify.app
-This is live version of my protfolio project.you can click on this link to watch live demo
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
+
 In order to run this project you need:
+1. Have VScode instale, it's a code editor.
+2. Have downloaded Git.
+3. Have a minimum knowledge of css and html
+4. Live server extension
+5. Npm
+6. Node
+7. React
+8. Babel
 
-Step 1: if you don't have git installed on your machine you can download it from [here](https://git-scm.com/downloads).
+### Setup
 
-Once you have git installed on your machine you can clone your project by running the command below to clone your project to your local machine
+Clone this repository to your desired folder:
 
+```sh
+  git clone https://github.com/muneeb3123/react-group-project.git
+```
 
-`https://github.com/muneeb3123/react-bookstore.git`
+### Install
 
-Alternatively, you can download the zip file of your project by clicking on the `Code` button on the right side of your project page and clicking on `Download ZIP`
+```sh
+npm install
+```
 
-Step 2: Locate the folder where you cloned your project to and run commond on terminal `npm install`then `npm run build` then `npm start` to view it on live server.
+### Usage
+
+To run the project, execute the following command:
+
+```sh
+Open Live Server
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  To check the JavaScript and Babel functionality use: 'npx eslint "**/*.{js,jsx}"'
+```
+
+```sh
+  To check the CSS functionality use: 'npx stylelint "**/*.{css,scss}"'
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+GitHub pages.
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- AUTHORS -->
-
-## 👥 Author <a name="authors"></a>
+## 👥 Authors <a name="authors"></a>
 
 👤 **Muneeb UR Rehman**
 
@@ -84,16 +111,19 @@ Step 2: Locate the folder where you cloned your project to and run commond on te
 - Twitter: [@Hafizabd4](https://twitter.com/Hafizabd4)
 - LinkedIn: (https://www.linkedin.com/in/muneb-ur-rehman-01b6bb193)
 
-<!-- FUTURE FEATURES -->
+👤 **Federica Ulzurrun**
+
+- GitHub: [@federicaulzurrun](https://github.com/federicaulzurrun)
+- Twitter: [@ulzurrunfede](https://mobile.twitter.com/ulzurrunfede)
+- LinkedIn: [Federica Ulzurrun](https://www.linkedin.com/in/federica-ulzurrun-293a86198)
+
 
 ## 🔭 Future Features <a name="future-features"></a>
-- **Edit**
-- **Delete**
-- **Add comments**
-- **Modify progress bar**
+
+- Creating the project
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- CONTRIBUTING -->
+
 
 ## 🤝 Contributing <a name="contributing"></a>
 
@@ -103,27 +133,22 @@ Feel free to check the [issues page](../../issues/).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
-**please show your support to improve my skills .this will help me to work hard**
-Give a ⭐️ if you like this project!
+
+If you like this project let me know via twitter ! and i'll follow you!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
+Thanks to Microverse for allowing me to make this project.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-"Special thanks to Alejendro Julio for helping me to setup this project."
 
-
-<!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./License.md) licensed.
-
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
