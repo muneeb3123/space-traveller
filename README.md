@@ -80,6 +80,11 @@ To run the project, execute the following command:
 ```sh
 Open Live Server
 ```
+or run
+
+```sh
+  npm start
+```
 
 ### Run tests
 
@@ -120,7 +125,7 @@ GitHub pages.
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- Creating the project
+- Doing the live demo deployment
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
