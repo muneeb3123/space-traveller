@@ -12,7 +12,7 @@ function Rockets() {
     }
   }, [dispatch, data]);
   return (
-    <div className="rocket-container">
+    <div className="rocket-container" data-testid="rockets-container">
       {status && <div>Loading...</div>}
       {data && data.map((rocket) => (
         <div key={rocket.id} className="main-container">

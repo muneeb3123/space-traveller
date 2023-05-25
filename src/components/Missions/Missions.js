@@ -25,9 +25,8 @@ const MissionList = () => {
   if (loading === 'idle') {
     return <div>Loading...</div>;
   }
-
   return (
-    <div className="missionsCont">
+    <div className="missionsCont" data-testid="mission-item">
       <table className="table">
         <thead className="tableHead">
           <tr className="headersCont">
