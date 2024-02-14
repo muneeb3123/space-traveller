@@ -31,7 +31,7 @@ const RocketSlice = createSlice({
       state.data = newstate;
     },
     cancelReserved: (state, action) => {
-      const newstate = state.data.map((rocket) => {
+     state.data = state.data.map((rocket) => {
         if (rocket.id === action.payload) {
           return { ...rocket, reserved: false };
         }
